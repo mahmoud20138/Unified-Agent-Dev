@@ -54,7 +54,7 @@ The installer auto-detects installed hosts. You can also select hosts explicitly
 This is the recommended installation path while `0.1.0` remains an unsigned development build.
 
 ```powershell
-git clone https://github.com/mahmoud20138/unified-agent-dev.git
+git clone https://github.com/mahmoud20138/Unified-Agent-Dev.git
 cd unified-agent-dev
 npm ci --ignore-scripts
 npm run build

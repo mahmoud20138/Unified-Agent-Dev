@@ -21,7 +21,7 @@ unified-agent-dev catalog status
 
 Open a GitHub issue at:
 
-https://github.com/mahmoud20138/unified-agent-dev/issues
+https://github.com/mahmoud20138/Unified-Agent-Dev/issues
 
 Include the product version, Windows version, Node.js version, affected host CLI and version, the redacted doctor output, and reproducible steps. Never attach API keys, tokens, complete user configuration files, or other secrets.
 

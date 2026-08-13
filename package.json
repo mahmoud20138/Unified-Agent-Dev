@@ -5,11 +5,11 @@
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mahmoud20138/unified-agent-dev.git"
+    "url": "git+https://github.com/mahmoud20138/Unified-Agent-Dev.git"
   },
-  "homepage": "https://github.com/mahmoud20138/unified-agent-dev#readme",
+  "homepage": "https://github.com/mahmoud20138/Unified-Agent-Dev#readme",
   "bugs": {
-    "url": "https://github.com/mahmoud20138/unified-agent-dev/issues"
+    "url": "https://github.com/mahmoud20138/Unified-Agent-Dev/issues"
   },
   "type": "module",
   "bin": {

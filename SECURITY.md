@@ -10,7 +10,7 @@ Do not open a public issue for a suspected vulnerability, exposed credential, tr
 
 Use GitHub's private vulnerability reporting for this repository:
 
-https://github.com/mahmoud20138/unified-agent-dev/security/advisories/new
+https://github.com/mahmoud20138/Unified-Agent-Dev/security/advisories/new
 
 Include the affected version, Windows and host CLI versions, reproduction steps, expected result, actual result, and the smallest safe proof of concept. Do not include live credentials or private user configuration.
 
