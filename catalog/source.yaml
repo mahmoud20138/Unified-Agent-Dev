@@ -1,0 +1,1339 @@
+schema_version: 1
+snapshot_date: '2026-08-12'
+title: Top 100 AI Coding-Agent Skills, Plugins, Extensions, and MCP Resources
+targets:
+- Claude Code
+- Codex
+- OpenCode
+selection_status: curated snapshot; refresh metadata, score, licenses, and immutable refs before production bundling
+architecture: federated meta-plugin
+resources:
+- id: 1
+  name: Claude Plugins Official
+  source_type: GitHub repository
+  url: https://github.com/anthropics/claude-plugins-official
+  category: Foundation / marketplace
+  agents:
+  - Claude Code
+  description: Anthropic-managed plugin directory and reference layout for distributing Claude Code skills, agents, hooks,
+    MCP servers, and related extensions.
+  integration_mode: catalog-and-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 2
+  name: OpenAI Plugins
+  source_type: GitHub repository
+  url: https://github.com/openai/plugins
+  category: Foundation / marketplace
+  agents:
+  - Codex
+  - ChatGPT
+  description: OpenAI’s curated Codex plugin collection and reference implementation for manifests, skills, apps, MCP servers,
+    agents, commands, hooks, and assets.
+  integration_mode: catalog-and-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 3
+  name: Vercel Skills
+  source_type: GitHub repository
+  url: https://github.com/vercel-labs/skills
+  category: Foundation / installer
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Cursor
+  - Others
+  description: Cross-agent CLI for discovering and installing SKILL.md-based capabilities into many coding-agent directory
+    conventions.
+  integration_mode: reuse-installer
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 4
+  name: wshobson/agents
+  source_type: GitHub repository
+  url: https://github.com/wshobson/agents
+  category: Foundation / marketplace
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Copilot
+  - Gemini CLI
+  description: Large multi-harness marketplace of specialized agents, skills, workflows, and orchestration patterns for several
+    coding assistants.
+  integration_mode: normalize-skills-and-agents
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 5
+  name: Superpowers
+  source_type: GitHub repository
+  url: https://github.com/obra/superpowers
+  category: Foundation / development methodology
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other skill hosts
+  description: Reusable skill framework enforcing brainstorming, planning, TDD, debugging, verification, code review, and
+    disciplined agentic development.
+  integration_mode: normalize-skills
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 6
+  name: Awesome Copilot
+  source_type: GitHub repository
+  url: https://github.com/github/awesome-copilot
+  category: Foundation / reusable instructions
+  agents:
+  - GitHub Copilot
+  - Compatible skill hosts
+  description: GitHub-maintained collection of reusable prompts, instructions, agents, chat modes, and skills for AI-assisted
+    software development.
+  integration_mode: normalize-skills-and-prompts
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 7
+  name: OpenRouter Skills
+  source_type: GitHub repository
+  url: https://github.com/OpenRouterTeam/skills
+  category: Foundation / model integration
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other skill hosts
+  description: Agent Skills for integrating OpenRouter, selecting models, routing requests, and applying provider-specific
+    development practices.
+  integration_mode: normalize-skills
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 8
+  name: Agent Skills
+  source_type: GitHub repository
+  url: https://github.com/joshuadavidthomas/agent-skills
+  category: Foundation / skill management
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other skill hosts
+  description: Portable Agent Skills tooling and conventions for discovering, installing, and maintaining reusable SKILL.md
+    modules.
+  integration_mode: reuse-installer-and-normalize
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 9
+  name: '@azat-io/ai-config'
+  source_type: npm package
+  url: https://www.npmjs.com/package/@azat-io/ai-config
+  category: Foundation / configuration sync
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Gemini CLI
+  description: Unified installer that synchronizes instructions, commands, skills, subagents, hooks, and MCP configuration
+    across several coding agents.
+  integration_mode: reuse-installer
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 10
+  name: '@kodizm/acp'
+  source_type: npm package
+  url: https://www.npmjs.com/package/@kodizm/acp
+  category: Foundation / protocol bridge
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  description: Canonical JSON-RPC bridge that maps one session protocol to Claude Code, Codex, and OpenCode backends.
+  integration_mode: runtime-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 11
+  name: Spec Kit
+  source_type: GitHub repository
+  url: https://github.com/github/spec-kit
+  category: Planning / specification
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other coding agents
+  description: GitHub’s spec-driven development toolkit for turning product intent into specifications, plans, tasks, and
+    implementation workflows.
+  integration_mode: normalize-skills-and-templates
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 12
+  name: OpenSpec
+  source_type: GitHub repository
+  url: https://github.com/Fission-AI/OpenSpec
+  category: Planning / specification
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other coding agents
+  description: Open specification workflow that structures proposals, requirements, design decisions, task breakdowns, and
+    implementation changes.
+  integration_mode: normalize-skills-and-templates
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 13
+  name: BMAD Method
+  source_type: GitHub repository
+  url: https://github.com/bmad-code-org/BMAD-METHOD
+  category: Planning / methodology
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other coding agents
+  description: Multi-agent software-development method with analyst, product, architecture, development, and QA roles plus
+    structured artifacts.
+  integration_mode: normalize-agents-and-workflows
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 14
+  name: Agent OS
+  source_type: GitHub repository
+  url: https://github.com/buildermethods/agent-os
+  category: Planning / methodology
+  agents:
+  - Claude Code
+  - Cursor
+  - Other coding agents
+  description: Structured product and engineering workflow that guides agents from standards and specifications through planned
+    implementation.
+  integration_mode: normalize-skills-and-templates
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 15
+  name: Task Master
+  source_type: GitHub repository
+  url: https://github.com/eyaltoledano/claude-task-master
+  category: Planning / task management
+  agents:
+  - Claude Code
+  - Cursor
+  - Other MCP hosts
+  description: Converts PRDs into dependency-aware tasks and helps agents select, expand, execute, and track implementation
+    work.
+  integration_mode: wrap-cli-and-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 16
+  name: Planning with Files
+  source_type: GitHub repository
+  url: https://github.com/OthmanAdi/planning-with-files
+  category: Planning / persistent state
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other coding agents
+  description: File-backed planning pattern that preserves goals, decisions, progress, and recovery checkpoints across long
+    agent sessions.
+  integration_mode: normalize-skills
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 17
+  name: Spec Workflow MCP
+  source_type: GitHub repository
+  url: https://github.com/Pimzino/spec-workflow-mcp
+  category: Planning / MCP workflow
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: MCP-based requirements, design, and task workflow with a dashboard for managing spec-driven implementation.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 18
+  name: CCPM
+  source_type: GitHub repository
+  url: https://github.com/automazeio/ccpm
+  category: Planning / project management
+  agents:
+  - Claude Code
+  description: GitHub issue–driven project-management workflow for decomposing features and coordinating parallel Claude Code
+    work.
+  integration_mode: normalize-skills-and-hooks
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 19
+  name: Beads
+  source_type: GitHub repository
+  url: https://github.com/gastownhall/beads
+  category: Planning / task graph
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other coding agents
+  description: Git-native, dependency-aware issue and task graph designed for persistent planning by coding agents.
+  integration_mode: wrap-cli
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 20
+  name: OpenCode Beads
+  source_type: GitHub repository
+  url: https://github.com/joshuadavidthomas/opencode-beads
+  category: Planning / OpenCode integration
+  agents:
+  - OpenCode
+  description: OpenCode plugin that connects Beads task graphs to agent sessions, tools, and workflow context.
+  integration_mode: opencode-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 21
+  name: OpenCode Goal Plugin
+  source_type: GitHub repository
+  url: https://github.com/prevalentWare/opencode-goal-plugin
+  category: Planning / goal tracking
+  agents:
+  - OpenCode
+  description: Maintains explicit goals and progress context so OpenCode can keep long-running development work aligned.
+  integration_mode: opencode-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 22
+  name: OpenCode OpenSpec Plugin
+  source_type: GitHub repository
+  url: https://github.com/Octane0411/opencode-plugin-openspec
+  category: Planning / specification integration
+  agents:
+  - OpenCode
+  description: OpenCode integration for applying OpenSpec proposal, planning, implementation, and archival workflows.
+  integration_mode: opencode-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 23
+  name: OpenCode Scheduler
+  source_type: GitHub repository
+  url: https://github.com/different-ai/opencode-scheduler
+  category: Planning / automation
+  agents:
+  - OpenCode
+  description: Schedules or triggers OpenCode work automatically, enabling recurring and unattended development workflows.
+  integration_mode: opencode-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 24
+  name: '@adev-org/adev-cli'
+  source_type: npm package
+  url: https://www.npmjs.com/package/@adev-org/adev-cli
+  category: Planning / lifecycle framework
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Cursor
+  - Copilot
+  description: Agentic-development framework covering discovery, specification, planning, TDD implementation, validation,
+    governance, and recovery.
+  integration_mode: reuse-installer-and-normalize
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 25
+  name: Codex Plugin for Claude Code
+  source_type: GitHub repository
+  url: https://github.com/openai/codex-plugin-cc
+  category: Delegation / cross-agent
+  agents:
+  - Claude Code
+  - Codex
+  description: Official plugin that delegates reviews or background work from Claude Code to Codex and manages transfers,
+    status, results, and cancellation.
+  integration_mode: reuse-plugin
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 26
+  name: Ruflo
+  source_type: GitHub repository
+  url: https://github.com/ruvnet/ruflo
+  category: Delegation / swarm orchestration
+  agents:
+  - Claude Code
+  - Other coding agents
+  description: Large orchestration framework for swarms, specialist agents, memory, routing, and coordinated software-development
+    pipelines.
+  integration_mode: wrap-runtime
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 27
+  name: Oh My OpenCode
+  source_type: GitHub repository
+  url: https://github.com/opensoft/oh-my-opencode
+  category: Delegation / OpenCode workflow
+  agents:
+  - OpenCode
+  description: Batteries-included OpenCode setup with specialized agents, commands, routing, workflow automation, and sensible
+    defaults.
+  integration_mode: opencode-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 28
+  name: OpenCode Swarm
+  source_type: GitHub repository
+  url: https://github.com/ZaxbyHub/opencode-swarm
+  category: Delegation / swarm orchestration
+  agents:
+  - OpenCode
+  description: Coordinates multiple OpenCode agents as a task-oriented swarm for parallel analysis and implementation.
+  integration_mode: opencode-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 29
+  name: OpenCode Orchestrator
+  source_type: GitHub repository
+  url: https://github.com/agnusdei1207/opencode-orchestrator
+  category: Delegation / orchestration
+  agents:
+  - OpenCode
+  description: Orchestration layer for delegating development tasks to specialized OpenCode agents and collecting their outputs.
+  integration_mode: opencode-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 30
+  name: AgentSys
+  source_type: GitHub repository
+  url: https://github.com/agent-sh/agentsys
+  category: Delegation / agent system
+  agents:
+  - OpenCode
+  - Other coding agents
+  description: Reusable agent-system configuration for specialist roles, delegation rules, and coordinated coding workflows.
+  integration_mode: normalize-agents-and-workflows
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 31
+  name: Micode
+  source_type: GitHub repository
+  url: https://github.com/vtemian/micode
+  category: Delegation / multi-agent coding
+  agents:
+  - OpenCode
+  description: OpenCode-centered multi-agent development workflow for splitting, running, and supervising coding tasks.
+  integration_mode: wrap-runtime
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 32
+  name: MassGen
+  source_type: GitHub repository
+  url: https://github.com/massgen/MassGen
+  category: Delegation / multi-agent aggregation
+  agents:
+  - General agent runtimes
+  - Coding-agent integrations
+  description: Runs multiple agents in parallel, shares intermediate work, and aggregates or selects stronger final outputs.
+  integration_mode: wrap-runtime
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 33
+  name: HumanLayer
+  source_type: GitHub repository
+  url: https://github.com/humanlayer/humanlayer
+  category: Delegation / human-in-the-loop
+  agents:
+  - Claude Code
+  - Other coding agents
+  description: Context-engineering and human-approval tooling for supervising long-running coding agents and risky actions.
+  integration_mode: wrap-runtime-and-hooks
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 34
+  name: Claude Squad
+  source_type: GitHub repository
+  url: https://github.com/smtg-ai/claude-squad
+  category: Delegation / parallel sessions
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other terminal agents
+  description: Terminal UI for running multiple coding-agent sessions in isolated worktrees and reviewing their changes.
+  integration_mode: external-runtime
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 35
+  name: Vibe Kanban
+  source_type: GitHub repository
+  url: https://github.com/BloopAI/vibe-kanban
+  category: Delegation / visual control plane
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other coding agents
+  description: Visual Kanban control plane for creating, assigning, monitoring, and reviewing work performed by coding agents.
+  integration_mode: external-runtime
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 36
+  name: SuperClaude Framework
+  source_type: GitHub repository
+  url: https://github.com/SuperClaude-Org/SuperClaude_Framework
+  category: Delegation / Claude workflow
+  agents:
+  - Claude Code
+  description: Framework of commands, roles, modes, and development workflows that expands Claude Code into a coordinated
+    engineering system.
+  integration_mode: normalize-agents-and-commands
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 37
+  name: agentbox-sdk
+  source_type: npm package
+  url: https://www.npmjs.com/package/agentbox-sdk
+  category: Delegation / sandbox runtime
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  description: Unified API for running coding agents interactively inside local or cloud sandboxes while preserving approvals,
+    streaming, and tools.
+  integration_mode: runtime-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 38
+  name: '@codagent-ai/agent-plugin'
+  source_type: npm package
+  url: https://www.npmjs.com/package/@codagent-ai/agent-plugin
+  category: Delegation / plugin installer
+  agents:
+  - Claude Code
+  - Codex
+  - Copilot
+  - Other skill hosts
+  description: Installs or updates agent plugins through native CLIs when available and falls back to portable skill installation.
+  integration_mode: reuse-installer
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 39
+  name: Serena
+  source_type: GitHub repository
+  url: https://github.com/oraios/serena
+  category: Context / semantic code intelligence
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Language-server-backed semantic code retrieval and editing tools exposed to coding agents through MCP.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 40
+  name: Context7
+  source_type: GitHub repository
+  url: https://github.com/upstash/context7
+  category: Context / documentation retrieval
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Retrieves current, version-aware library documentation and examples so agents avoid relying on stale API knowledge.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 41
+  name: Repomix
+  source_type: GitHub repository
+  url: https://github.com/yamadashy/repomix
+  category: Context / repository packaging
+  agents:
+  - All coding agents
+  description: Packages a repository into compact, AI-friendly context with filtering, token counts, and optional security
+    checks.
+  integration_mode: wrap-cli
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 42
+  name: Gitingest
+  source_type: GitHub repository
+  url: https://github.com/cyclotruc/gitingest
+  category: Context / repository ingestion
+  agents:
+  - All coding agents
+  description: Turns Git repositories into prompt-ready summaries and text representations for rapid codebase ingestion.
+  integration_mode: wrap-cli-or-service
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 43
+  name: CodeGraphContext
+  source_type: GitHub repository
+  url: https://github.com/CodeGraphContext/CodeGraphContext
+  category: Context / code graph
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Builds structural code graphs and exposes dependency-aware context for navigation, impact analysis, and planning.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 44
+  name: Claude Context
+  source_type: GitHub repository
+  url: https://github.com/zilliztech/claude-context
+  category: Context / semantic search
+  agents:
+  - Claude Code
+  - MCP hosts
+  description: Indexes code and provides semantic search so agents retrieve relevant snippets instead of loading entire repositories.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 45
+  name: Basic Memory
+  source_type: GitHub repository
+  url: https://github.com/basicmachines-co/basic-memory
+  category: Memory / local knowledge
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Local-first Markdown knowledge and relationship store that gives agents durable, inspectable memory through
+    MCP.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 46
+  name: Mem0
+  source_type: GitHub repository
+  url: https://github.com/mem0ai/mem0
+  category: Memory / persistent personalization
+  agents:
+  - Agent runtimes
+  - Coding-agent integrations
+  description: Persistent memory layer for extracting, updating, retrieving, and scoping facts across agent sessions.
+  integration_mode: wrap-library-or-service
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 47
+  name: Graphiti
+  source_type: GitHub repository
+  url: https://github.com/getzep/graphiti
+  category: Memory / temporal knowledge graph
+  agents:
+  - Agent runtimes
+  - Coding-agent integrations
+  description: Temporal knowledge-graph memory for retaining evolving entities, relationships, events, and project decisions.
+  integration_mode: wrap-library-or-service
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 48
+  name: Claude-Mem
+  source_type: GitHub repository
+  url: https://github.com/thedotmack/claude-mem
+  category: Memory / session continuity
+  agents:
+  - Claude Code
+  description: Captures, compresses, indexes, and restores Claude Code session history to improve continuity across conversations.
+  integration_mode: claude-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 49
+  name: OpenCode Dynamic Context Pruning
+  source_type: GitHub repository
+  url: https://github.com/Opencode-DCP/opencode-dynamic-context-pruning
+  category: Performance / context optimization
+  agents:
+  - OpenCode
+  description: Removes redundant or low-value context from OpenCode sessions to reduce token use and preserve useful working
+    memory.
+  integration_mode: opencode-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 50
+  name: OpenCode Supermemory
+  source_type: GitHub repository
+  url: https://github.com/supermemoryai/opencode-supermemory
+  category: Memory / OpenCode
+  agents:
+  - OpenCode
+  description: Persistent memory plugin that recalls relevant information automatically during OpenCode sessions.
+  integration_mode: opencode-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 51
+  name: OpenCode Morph Fast Apply
+  source_type: GitHub repository
+  url: https://github.com/JRedeker/opencode-morph-fast-apply
+  category: Performance / code editing
+  agents:
+  - OpenCode
+  description: Adds high-speed code-application tooling to OpenCode for applying larger edits with fewer tokens and retries.
+  integration_mode: opencode-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 52
+  name: Claude Code Router
+  source_type: GitHub repository
+  url: https://github.com/musistudio/claude-code-router
+  category: Performance / model routing
+  agents:
+  - Claude Code
+  description: Routes Claude Code requests through alternative model providers, transformers, and task-specific routing rules.
+  integration_mode: proxy-runtime
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 53
+  name: SocratiCode
+  source_type: npm package
+  url: https://www.npmjs.com/package/socraticode
+  category: Context / private code intelligence
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Private codebase indexer providing hybrid search, dependency graphs, impact analysis, context artifacts, and
+    agent plugins.
+  integration_mode: federate-mcp-and-skills
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 54
+  name: '@aicontextlab/cli (OpenContext)'
+  source_type: npm package
+  url: https://www.npmjs.com/package/@aicontextlab/cli
+  category: Memory / context workspace
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Cursor
+  description: Persistent context library with CLI, GUI, MCP tools, and generated skills for carrying knowledge across sessions
+    and repositories.
+  integration_mode: federate-mcp-and-skills
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 55
+  name: OpenAI Build Web Apps Plugin
+  source_type: GitHub plugin directory
+  url: https://github.com/openai/plugins/tree/main/plugins/build-web-apps
+  category: Frontend / full-stack web
+  agents:
+  - Codex
+  description: Skills for frontend design, browser testing, UI components, payments, databases, deployment, and full-stack
+    web application delivery.
+  integration_mode: codex-adapter-and-normalize-skills
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 56
+  name: OpenAI Figma Plugin
+  source_type: GitHub plugin directory
+  url: https://github.com/openai/plugins/tree/main/plugins/figma
+  category: Frontend / design-to-code
+  agents:
+  - Codex
+  description: Connects Codex with Figma workflows, Code to Canvas, Code Connect, design-system rules, and design-to-code
+    implementation.
+  integration_mode: codex-adapter-and-federate-app
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 57
+  name: OpenAI Expo Plugin
+  source_type: GitHub plugin directory
+  url: https://github.com/openai/plugins/tree/main/plugins/expo
+  category: Frontend / mobile
+  agents:
+  - Codex
+  description: Skills for Expo and React Native development, SDK upgrades, EAS builds, debugging, and mobile release workflows.
+  integration_mode: codex-adapter-and-normalize-skills
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 58
+  name: OpenAI Remotion Plugin
+  source_type: GitHub plugin directory
+  url: https://github.com/openai/plugins/tree/main/plugins/remotion
+  category: Frontend / programmatic media
+  agents:
+  - Codex
+  description: Provides skills and tooling for building, previewing, and rendering programmatic video projects with Remotion.
+  integration_mode: codex-adapter-and-normalize-skills
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 59
+  name: OpenAI Build iOS Apps Plugin
+  source_type: GitHub plugin directory
+  url: https://github.com/openai/plugins/tree/main/plugins/build-ios-apps
+  category: Frontend / iOS
+  agents:
+  - Codex
+  description: Guides SwiftUI implementation, refactoring, build/run/debug loops, performance work, and iOS app delivery.
+  integration_mode: codex-adapter-and-normalize-skills
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 60
+  name: OpenAI Test Android Apps Plugin
+  source_type: GitHub plugin directory
+  url: https://github.com/openai/plugins/tree/main/plugins/test-android-apps
+  category: Frontend / Android testing
+  agents:
+  - Codex
+  description: Automates emulator reproduction, screenshots, UI inspection, log capture, memory checks, and performance profiling
+    for Android apps.
+  integration_mode: codex-adapter-and-normalize-skills
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 61
+  name: Playwright MCP
+  source_type: GitHub repository
+  url: https://github.com/microsoft/playwright-mcp
+  category: UI / browser automation
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Microsoft’s MCP server for reliable browser navigation, interaction, inspection, screenshots, and end-to-end
+    testing.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 62
+  name: Chrome DevTools MCP
+  source_type: GitHub repository
+  url: https://github.com/ChromeDevTools/chrome-devtools-mcp
+  category: UI / browser debugging
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Exposes Chrome DevTools capabilities for DOM inspection, console/network debugging, screenshots, and performance
+    analysis.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 63
+  name: Browser MCP
+  source_type: GitHub repository
+  url: https://github.com/BrowserMCP/mcp
+  category: UI / browser automation
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Browser-extension-backed MCP server that lets agents navigate pages, click, type, extract content, and automate
+    web workflows.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 64
+  name: OpenCode Browser MCP Plugin
+  source_type: GitHub repository
+  url: https://github.com/michaljach/opencode-browser
+  category: UI / OpenCode browser automation
+  agents:
+  - OpenCode
+  description: OpenCode integration for Browser MCP with automatic task detection, performance hints, retry behavior, and
+    context preservation.
+  integration_mode: opencode-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 65
+  name: OpenCode Chrome DevTools
+  source_type: GitHub repository
+  url: https://github.com/different-ai/opencode-browser
+  category: UI / OpenCode browser automation
+  agents:
+  - OpenCode
+  description: Lightweight direct-CDP OpenCode plugin for page listing, navigation, accessibility snapshots, interaction,
+    evaluation, and screenshots.
+  integration_mode: opencode-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 66
+  name: Magic MCP
+  source_type: GitHub repository
+  url: https://github.com/21st-dev/magic-mcp
+  category: Frontend / component generation
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Connects agents to 21st.dev’s UI component ecosystem for discovering and generating polished frontend components.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 67
+  name: Figma Context MCP
+  source_type: GitHub repository
+  url: https://github.com/GLips/Figma-Context-MCP
+  category: Frontend / design context
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Supplies structured Figma design context to coding agents so they can implement layouts and components more
+    accurately.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 68
+  name: Storybook MCP
+  source_type: GitHub repository
+  url: https://github.com/storybookjs/mcp
+  category: Frontend / component systems
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Exposes Storybook components, stories, metadata, and testing context for agent-driven UI development and verification.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 69
+  name: Mobile MCP
+  source_type: GitHub repository
+  url: https://github.com/mobile-next/mobile-mcp
+  category: UI / mobile automation
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Controls Android and iOS devices or emulators for taps, text entry, screenshots, app inspection, and mobile
+    testing.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 70
+  name: GitHub MCP Server
+  source_type: GitHub repository
+  url: https://github.com/github/github-mcp-server
+  category: Backend / source control
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Official GitHub MCP server for repositories, files, commits, branches, issues, pull requests, reviews, and
+    automation.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 71
+  name: Model Context Protocol Servers
+  source_type: GitHub repository
+  url: https://github.com/modelcontextprotocol/servers
+  category: Backend / reference integrations
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Reference and example MCP servers covering common local resources and integration patterns.
+  integration_mode: select-and-federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 72
+  name: Supabase MCP
+  source_type: GitHub repository
+  url: https://github.com/supabase-community/supabase-mcp
+  category: Backend / database and platform
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Connects agents to Supabase projects for database work, migrations, configuration, logs, functions, and platform
+    operations.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 73
+  name: Neon MCP Server
+  source_type: GitHub repository
+  url: https://github.com/neondatabase/mcp-server-neon
+  category: Backend / PostgreSQL
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Lets agents create, inspect, branch, query, and manage Neon Postgres databases and projects.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 74
+  name: Prisma MCP
+  source_type: GitHub repository
+  url: https://github.com/prisma/mcp
+  category: Backend / ORM and database
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Provides Prisma-aware database and development workflows to agents through MCP-compatible tooling.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 75
+  name: dbt MCP
+  source_type: GitHub repository
+  url: https://github.com/dbt-labs/dbt-mcp
+  category: Backend / analytics engineering
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Exposes dbt project metadata, semantic-layer context, models, lineage, commands, and analytics-engineering
+    workflows.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 76
+  name: MongoDB MCP Server
+  source_type: GitHub repository
+  url: https://github.com/mongodb-js/mongodb-mcp-server
+  category: Backend / database
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Official MongoDB integration for inspecting schemas, querying data, and managing development database workflows.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 77
+  name: Redis MCP
+  source_type: GitHub repository
+  url: https://github.com/redis/mcp-redis
+  category: Backend / data platform
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Provides MCP tools for Redis data structures, search, JSON, vector use cases, and operational inspection.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 78
+  name: Terraform MCP Server
+  source_type: GitHub repository
+  url: https://github.com/hashicorp/terraform-mcp-server
+  category: DevOps / infrastructure as code
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: HashiCorp MCP integration for Terraform Registry discovery, module/provider guidance, and infrastructure workflows.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 79
+  name: Pulumi MCP Server
+  source_type: npm package
+  url: https://www.npmjs.com/package/@pulumi/mcp-server
+  category: DevOps / infrastructure as code
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Official Pulumi MCP server package for Registry discovery, previews and deployments, stack outputs, resource
+    search, and delegation of infrastructure work to Pulumi Neo.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 80
+  name: AWS MCP Servers
+  source_type: GitHub repository
+  url: https://github.com/awslabs/mcp
+  category: Cloud / AWS
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: AWS Labs collection of MCP servers for cloud architecture, documentation, infrastructure, operations, and service-specific
+    tasks.
+  integration_mode: select-and-federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 81
+  name: Azure MCP Server
+  source_type: GitHub repository
+  url: https://github.com/Azure/azure-mcp
+  category: Cloud / Azure
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Microsoft’s MCP server for querying and managing Azure resources, services, diagnostics, and development workflows.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 82
+  name: GenAI Toolbox for Databases
+  source_type: GitHub repository
+  url: https://github.com/GoogleCloudPlatform/genai-toolbox
+  category: Backend / database tools
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Google’s toolbox for exposing governed, reusable database tools to AI agents across multiple database engines.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 83
+  name: Cloudflare MCP Server
+  source_type: GitHub repository
+  url: https://github.com/cloudflare/mcp-server-cloudflare
+  category: Cloud / edge platform
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Enables agent access to Cloudflare development and operational capabilities across Workers and related services.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 84
+  name: Postman MCP Server
+  source_type: GitHub repository
+  url: https://github.com/postmanlabs/postman-mcp-server
+  category: Backend / API development
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Connects agents to Postman collections, APIs, workspaces, tests, documentation, and API-development workflows.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 85
+  name: Docker MCP Gateway
+  source_type: GitHub repository
+  url: https://github.com/docker/mcp-gateway
+  category: DevOps / MCP runtime
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Runs and brokers MCP servers through Docker with isolation, centralized configuration, discovery, and lifecycle
+    management.
+  integration_mode: reuse-gateway
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 86
+  name: PR-Agent
+  source_type: GitHub repository
+  url: https://github.com/qodo-ai/pr-agent
+  category: Quality / code review
+  agents:
+  - GitHub workflows
+  - Coding-agent integrations
+  description: Automates pull-request description, review, improvement suggestions, test generation, and repository quality
+    checks.
+  integration_mode: wrap-service-or-cli
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 87
+  name: Endor Labs AI Plugins
+  source_type: GitHub repository
+  url: https://github.com/endorlabs/ai-plugins
+  category: Security / software supply chain
+  agents:
+  - Claude Code
+  - Plugin-compatible agents
+  description: Agent plugins for scanning, prioritizing, and remediating dependency, package, and software-supply-chain risk.
+  integration_mode: normalize-plugin-and-wrap-cli
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 88
+  name: SonarQube MCP Server
+  source_type: GitHub repository
+  url: https://github.com/SonarSource/sonarqube-mcp-server
+  category: Quality / static analysis
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Exposes SonarQube and SonarCloud findings, quality gates, issue details, and remediation context to coding
+    agents.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 89
+  name: Snyk Agent Scan
+  source_type: GitHub repository
+  url: https://github.com/snyk/agent-scan
+  category: Security / agent component scanning
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other agent hosts
+  description: Discovers and scans installed agents, MCP servers, and skills for prompt injection, sensitive-data, malware,
+    and vulnerability risks.
+  integration_mode: security-gate
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 90
+  name: Aikido Claude Plugin
+  source_type: GitHub repository
+  url: https://github.com/AikidoSec/aikido-claude-plugin
+  category: Security / application scanning
+  agents:
+  - Claude Code
+  description: Adds Aikido security scanning for SAST, secrets, dependencies, and infrastructure-as-code issues to Claude
+    Code.
+  integration_mode: claude-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 91
+  name: 42Crunch Claude Plugins
+  source_type: GitHub repository
+  url: https://github.com/42Crunch-AI/claude-plugins
+  category: Security / API security
+  agents:
+  - Claude Code
+  description: Audits OpenAPI definitions, scans APIs, identifies OWASP API risks, suggests fixes, and validates remediation.
+  integration_mode: claude-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 92
+  name: Cisco AI Defense Skill Scanner
+  source_type: GitHub repository
+  url: https://github.com/cisco-ai-defense/skill-scanner
+  category: Security / skill scanning
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other skill hosts
+  description: Scans Agent Skills for malicious instructions, risky behavior, prompt injection, and unsafe packaged content.
+  integration_mode: security-gate
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 93
+  name: MCP Inspector
+  source_type: GitHub repository
+  url: https://github.com/modelcontextprotocol/inspector
+  category: Testing / MCP
+  agents:
+  - MCP servers and clients
+  description: Interactive developer tool for inspecting, invoking, debugging, and validating MCP servers, tools, resources,
+    and prompts.
+  integration_mode: test-harness
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 94
+  name: ToolHive
+  source_type: GitHub repository
+  url: https://github.com/stacklok/toolhive
+  category: Security / MCP isolation
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Secure runtime and manager for discovering, running, isolating, and governing MCP servers.
+  integration_mode: reuse-gateway
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 95
+  name: SkillSpector
+  source_type: GitHub repository
+  url: https://github.com/NVIDIA/SkillSpector
+  category: Security / skill analysis
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other skill hosts
+  description: NVIDIA tool for inspecting and evaluating Agent Skills for security, policy, and quality risks.
+  integration_mode: security-gate
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 96
+  name: Skil Lock
+  source_type: GitHub repository
+  url: https://github.com/skills-lock/skil-lock
+  category: Security / skill integrity
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Other skill hosts
+  description: Locks skill dependencies and content identities to reduce unreviewed drift and supply-chain tampering.
+  integration_mode: lockfile-and-integrity-gate
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 97
+  name: CC Safety Net
+  source_type: GitHub repository
+  url: https://github.com/kenryu42/cc-safety-net
+  category: Safety / command guardrails
+  agents:
+  - Claude Code
+  description: Claude Code safety hooks that intercept destructive or high-risk commands and enforce configurable safeguards.
+  integration_mode: claude-hooks-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 98
+  name: ccusage
+  source_type: GitHub repository
+  url: https://github.com/ryoppippi/ccusage
+  category: Observability / cost and usage
+  agents:
+  - Claude Code
+  - Codex
+  description: Analyzes local coding-agent usage logs to report token consumption, costs, sessions, trends, and budgets.
+  integration_mode: wrap-cli-and-monitor
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 99
+  name: Claude Code Multi-Agent Observability
+  source_type: GitHub repository
+  url: https://github.com/disler/claude-code-hooks-multi-agent-observability
+  category: Observability / agent events
+  agents:
+  - Claude Code
+  description: Hook-based observability stack for visualizing Claude Code and subagent lifecycle events, tools, prompts, and
+    execution traces.
+  integration_mode: claude-hooks-adapter
+  selection_status: selected-candidate
+  license_status: verify-before-bundling
+- id: 100
+  name: Sentry MCP
+  source_type: GitHub repository
+  url: https://github.com/getsentry/sentry-mcp
+  category: Observability / debugging
+  agents:
+  - Claude Code
+  - Codex
+  - OpenCode
+  - MCP hosts
+  description: Lets coding agents investigate Sentry issues, stack traces, events, releases, and production-error context.
+  integration_mode: federate-mcp
+  selection_status: selected-candidate
+  license_status: verify-before-bundling

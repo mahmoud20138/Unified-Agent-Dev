@@ -1,0 +1,55 @@
+{
+  "name": "@unified-agent-dev/cli",
+  "version": "0.1.0",
+  "description": "One-install federated capability registry for Claude Code, Codex, and OpenCode.",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmoud20138/unified-agent-dev.git"
+  },
+  "homepage": "https://github.com/mahmoud20138/unified-agent-dev#readme",
+  "bugs": {
+    "url": "https://github.com/mahmoud20138/unified-agent-dev/issues"
+  },
+  "type": "module",
+  "bin": {
+    "unified-agent-dev": "./dist/src/cli.js"
+  },
+  "files": [
+    "adapters/",
+    "catalog/catalog.json",
+    "catalog/providers.runtime.json",
+    "dist/src/",
+    "marketplaces/",
+    "plugins/",
+    "providers/",
+    "release/",
+    "runtime/",
+    "Install-UnifiedAgentDev.ps1",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.14.0",
+    "npm": ">=11.0.0"
+  },
+  "scripts": {
+    "prepack": "npm run test && npm run plugin:validate",
+    "catalog:compile": "node ./scripts/compile-catalog.mjs",
+    "build": "npm run catalog:compile && tsc -p tsconfig.json && node ./scripts/build-release.mjs",
+    "test": "npm run build && node --test \"dist/tests/**/*.test.js\"",
+    "check": "npm run test && npm run plugin:validate && npm pack --dry-run --ignore-scripts",
+    "plugin:validate": "node ./scripts/validate-plugin.mjs",
+    "pack:release": "npm run check && npm pack"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "jsonc-parser": "3.3.1",
+    "yaml": "2.9.0",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.0",
+    "esbuild": "0.28.2",
+    "typescript": "6.0.3"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "unified-agent-dev",
+  "version": "0.1.0",
+  "description": "Search a normalized 100-source AI-agent research catalogue and resolve only providers that passed release gates.",
+  "author": {
+    "name": "Unified Agent Dev Maintainers"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "agents",
+    "catalogue",
+    "mcp",
+    "windows"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Unified Agent Dev",
+    "shortDescription": "Search 100 agent resources safely",
+    "longDescription": "A Windows-first federated meta-plugin for Codex, Claude Code, and OpenCode. It exposes the full research catalogue while keeping unaccepted providers inert.",
+    "developerName": "Unified Agent Dev Maintainers",
+    "category": "Engineering",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Search the unified catalogue for a capability",
+      "Show which providers are accepted for execution"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

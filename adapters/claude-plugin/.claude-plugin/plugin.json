@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "unified-agent-dev",
+  "displayName": "Unified Agent Dev",
+  "version": "0.1.0",
+  "description": "Search a 100-source AI-agent catalogue and resolve only accepted providers.",
+  "author": {
+    "name": "Unified Agent Dev Maintainers"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "agents",
+    "catalogue",
+    "mcp",
+    "windows"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

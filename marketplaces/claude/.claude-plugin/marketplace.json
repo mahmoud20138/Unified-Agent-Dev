@@ -1,0 +1,18 @@
+{
+  "name": "unified-agent-dev-local",
+  "owner": {
+    "name": "Unified Agent Dev Maintainers"
+  },
+  "description": "Local release channel for the Unified Agent Dev meta-plugin.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "unified-agent-dev",
+      "source": "./plugins/unified-agent-dev",
+      "description": "Search 100 agent resources while routing only accepted providers.",
+      "version": "0.1.0",
+      "strict": true,
+      "category": "development"
+    }
+  ]
+}

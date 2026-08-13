@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "catalogId": 42,
+      "canonicalUrl": "https://github.com/coderamp-labs/gitingest",
+      "reason": "Repository redirect resolved on 2026-08-13."
+    },
+    {
+      "catalogId": 72,
+      "canonicalUrl": "https://github.com/supabase/mcp",
+      "reason": "Repository redirect resolved on 2026-08-13."
+    },
+    {
+      "catalogId": 82,
+      "canonicalUrl": "https://github.com/googleapis/mcp-toolbox",
+      "reason": "Project was renamed from Gen AI Toolbox for Databases to MCP Toolbox for Databases."
+    },
+    {
+      "catalogId": 86,
+      "canonicalUrl": "https://github.com/The-PR-Agent/pr-agent",
+      "reason": "Repository redirect resolved on 2026-08-13."
+    },
+    {
+      "catalogId": 98,
+      "canonicalUrl": "https://github.com/ccusage/ccusage",
+      "reason": "Repository redirect resolved on 2026-08-13."
+    }
+  ]
+}

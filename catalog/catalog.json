@@ -1,0 +1,2321 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-08-12",
+  "title": "Top 100 AI Coding-Agent Skills, Plugins, Extensions, and MCP Resources",
+  "targets": [
+    "Claude Code",
+    "Codex",
+    "OpenCode"
+  ],
+  "architecture": "federated-meta-plugin",
+  "sourceSha256": "ea9c1f8cfac4df9d03140942f66a7d9bc1376b1ba2659316c81732cf6bdf7e0e",
+  "counts": {
+    "catalogue": 100,
+    "accepted": 0,
+    "catalogOnly": 100,
+    "quarantined": 0,
+    "referenceOnly": 0
+  },
+  "resources": [
+    {
+      "catalogId": 1,
+      "moduleId": "catalog.001.claude-plugins-official",
+      "name": "Claude Plugins Official",
+      "description": "Anthropic-managed plugin directory and reference layout for distributing Claude Code skills, agents, hooks, MCP servers, and related extensions.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/anthropics/claude-plugins-official",
+      "canonicalUrl": "https://github.com/anthropics/claude-plugins-official",
+      "canonicalization": null,
+      "category": "Foundation / marketplace",
+      "agents": [
+        "Claude Code"
+      ],
+      "integrationMode": "catalog-and-adapter",
+      "intendedRole": "catalog-only",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 2,
+      "moduleId": "catalog.002.openai-plugins",
+      "name": "OpenAI Plugins",
+      "description": "OpenAI’s curated Codex plugin collection and reference implementation for manifests, skills, apps, MCP servers, agents, commands, hooks, and assets.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/openai/plugins",
+      "canonicalUrl": "https://github.com/openai/plugins",
+      "canonicalization": null,
+      "category": "Foundation / marketplace",
+      "agents": [
+        "Codex",
+        "ChatGPT"
+      ],
+      "integrationMode": "catalog-and-adapter",
+      "intendedRole": "catalog-only",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 3,
+      "moduleId": "catalog.003.vercel-skills",
+      "name": "Vercel Skills",
+      "description": "Cross-agent CLI for discovering and installing SKILL.md-based capabilities into many coding-agent directory conventions.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/vercel-labs/skills",
+      "canonicalUrl": "https://github.com/vercel-labs/skills",
+      "canonicalization": null,
+      "category": "Foundation / installer",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Cursor",
+        "Others"
+      ],
+      "integrationMode": "reuse-installer",
+      "intendedRole": "catalog-only",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 4,
+      "moduleId": "catalog.004.wshobson-agents",
+      "name": "wshobson/agents",
+      "description": "Large multi-harness marketplace of specialized agents, skills, workflows, and orchestration patterns for several coding assistants.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/wshobson/agents",
+      "canonicalUrl": "https://github.com/wshobson/agents",
+      "canonicalization": null,
+      "category": "Foundation / marketplace",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Copilot",
+        "Gemini CLI"
+      ],
+      "integrationMode": "normalize-skills-and-agents",
+      "intendedRole": "instruction-module",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 5,
+      "moduleId": "catalog.005.superpowers",
+      "name": "Superpowers",
+      "description": "Reusable skill framework enforcing brainstorming, planning, TDD, debugging, verification, code review, and disciplined agentic development.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/obra/superpowers",
+      "canonicalUrl": "https://github.com/obra/superpowers",
+      "canonicalization": null,
+      "category": "Foundation / development methodology",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other skill hosts"
+      ],
+      "integrationMode": "normalize-skills",
+      "intendedRole": "instruction-module",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 6,
+      "moduleId": "catalog.006.awesome-copilot",
+      "name": "Awesome Copilot",
+      "description": "GitHub-maintained collection of reusable prompts, instructions, agents, chat modes, and skills for AI-assisted software development.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/github/awesome-copilot",
+      "canonicalUrl": "https://github.com/github/awesome-copilot",
+      "canonicalization": null,
+      "category": "Foundation / reusable instructions",
+      "agents": [
+        "GitHub Copilot",
+        "Compatible skill hosts"
+      ],
+      "integrationMode": "normalize-skills-and-prompts",
+      "intendedRole": "instruction-module",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 7,
+      "moduleId": "catalog.007.openrouter-skills",
+      "name": "OpenRouter Skills",
+      "description": "Agent Skills for integrating OpenRouter, selecting models, routing requests, and applying provider-specific development practices.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/OpenRouterTeam/skills",
+      "canonicalUrl": "https://github.com/OpenRouterTeam/skills",
+      "canonicalization": null,
+      "category": "Foundation / model integration",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other skill hosts"
+      ],
+      "integrationMode": "normalize-skills",
+      "intendedRole": "instruction-module",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 8,
+      "moduleId": "catalog.008.agent-skills",
+      "name": "Agent Skills",
+      "description": "Portable Agent Skills tooling and conventions for discovering, installing, and maintaining reusable SKILL.md modules.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/joshuadavidthomas/agent-skills",
+      "canonicalUrl": "https://github.com/joshuadavidthomas/agent-skills",
+      "canonicalization": null,
+      "category": "Foundation / skill management",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other skill hosts"
+      ],
+      "integrationMode": "reuse-installer-and-normalize",
+      "intendedRole": "catalog-only",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 9,
+      "moduleId": "catalog.009.azat-io-ai-config",
+      "name": "@azat-io/ai-config",
+      "description": "Unified installer that synchronizes instructions, commands, skills, subagents, hooks, and MCP configuration across several coding agents.",
+      "sourceType": "npm package",
+      "originalUrl": "https://www.npmjs.com/package/@azat-io/ai-config",
+      "canonicalUrl": "https://www.npmjs.com/package/@azat-io/ai-config",
+      "canonicalization": null,
+      "category": "Foundation / configuration sync",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Gemini CLI"
+      ],
+      "integrationMode": "reuse-installer",
+      "intendedRole": "catalog-only",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 10,
+      "moduleId": "catalog.010.kodizm-acp",
+      "name": "@kodizm/acp",
+      "description": "Canonical JSON-RPC bridge that maps one session protocol to Claude Code, Codex, and OpenCode backends.",
+      "sourceType": "npm package",
+      "originalUrl": "https://www.npmjs.com/package/@kodizm/acp",
+      "canonicalUrl": "https://www.npmjs.com/package/@kodizm/acp",
+      "canonicalization": null,
+      "category": "Foundation / protocol bridge",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode"
+      ],
+      "integrationMode": "runtime-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 11,
+      "moduleId": "catalog.011.spec-kit",
+      "name": "Spec Kit",
+      "description": "GitHub’s spec-driven development toolkit for turning product intent into specifications, plans, tasks, and implementation workflows.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/github/spec-kit",
+      "canonicalUrl": "https://github.com/github/spec-kit",
+      "canonicalization": null,
+      "category": "Planning / specification",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other coding agents"
+      ],
+      "integrationMode": "normalize-skills-and-templates",
+      "intendedRole": "instruction-module",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 12,
+      "moduleId": "catalog.012.openspec",
+      "name": "OpenSpec",
+      "description": "Open specification workflow that structures proposals, requirements, design decisions, task breakdowns, and implementation changes.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/Fission-AI/OpenSpec",
+      "canonicalUrl": "https://github.com/Fission-AI/OpenSpec",
+      "canonicalization": null,
+      "category": "Planning / specification",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other coding agents"
+      ],
+      "integrationMode": "normalize-skills-and-templates",
+      "intendedRole": "instruction-module",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 13,
+      "moduleId": "catalog.013.bmad-method",
+      "name": "BMAD Method",
+      "description": "Multi-agent software-development method with analyst, product, architecture, development, and QA roles plus structured artifacts.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/bmad-code-org/BMAD-METHOD",
+      "canonicalUrl": "https://github.com/bmad-code-org/BMAD-METHOD",
+      "canonicalization": null,
+      "category": "Planning / methodology",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other coding agents"
+      ],
+      "integrationMode": "normalize-agents-and-workflows",
+      "intendedRole": "instruction-module",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 14,
+      "moduleId": "catalog.014.agent-os",
+      "name": "Agent OS",
+      "description": "Structured product and engineering workflow that guides agents from standards and specifications through planned implementation.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/buildermethods/agent-os",
+      "canonicalUrl": "https://github.com/buildermethods/agent-os",
+      "canonicalization": null,
+      "category": "Planning / methodology",
+      "agents": [
+        "Claude Code",
+        "Cursor",
+        "Other coding agents"
+      ],
+      "integrationMode": "normalize-skills-and-templates",
+      "intendedRole": "instruction-module",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 15,
+      "moduleId": "catalog.015.task-master",
+      "name": "Task Master",
+      "description": "Converts PRDs into dependency-aware tasks and helps agents select, expand, execute, and track implementation work.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/eyaltoledano/claude-task-master",
+      "canonicalUrl": "https://github.com/eyaltoledano/claude-task-master",
+      "canonicalization": null,
+      "category": "Planning / task management",
+      "agents": [
+        "Claude Code",
+        "Cursor",
+        "Other MCP hosts"
+      ],
+      "integrationMode": "wrap-cli-and-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 16,
+      "moduleId": "catalog.016.planning-with-files",
+      "name": "Planning with Files",
+      "description": "File-backed planning pattern that preserves goals, decisions, progress, and recovery checkpoints across long agent sessions.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/OthmanAdi/planning-with-files",
+      "canonicalUrl": "https://github.com/OthmanAdi/planning-with-files",
+      "canonicalization": null,
+      "category": "Planning / persistent state",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other coding agents"
+      ],
+      "integrationMode": "normalize-skills",
+      "intendedRole": "instruction-module",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 17,
+      "moduleId": "catalog.017.spec-workflow-mcp",
+      "name": "Spec Workflow MCP",
+      "description": "MCP-based requirements, design, and task workflow with a dashboard for managing spec-driven implementation.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/Pimzino/spec-workflow-mcp",
+      "canonicalUrl": "https://github.com/Pimzino/spec-workflow-mcp",
+      "canonicalization": null,
+      "category": "Planning / MCP workflow",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 18,
+      "moduleId": "catalog.018.ccpm",
+      "name": "CCPM",
+      "description": "GitHub issue–driven project-management workflow for decomposing features and coordinating parallel Claude Code work.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/automazeio/ccpm",
+      "canonicalUrl": "https://github.com/automazeio/ccpm",
+      "canonicalization": null,
+      "category": "Planning / project management",
+      "agents": [
+        "Claude Code"
+      ],
+      "integrationMode": "normalize-skills-and-hooks",
+      "intendedRole": "instruction-module",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 19,
+      "moduleId": "catalog.019.beads",
+      "name": "Beads",
+      "description": "Git-native, dependency-aware issue and task graph designed for persistent planning by coding agents.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/gastownhall/beads",
+      "canonicalUrl": "https://github.com/gastownhall/beads",
+      "canonicalization": null,
+      "category": "Planning / task graph",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other coding agents"
+      ],
+      "integrationMode": "wrap-cli",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 20,
+      "moduleId": "catalog.020.opencode-beads",
+      "name": "OpenCode Beads",
+      "description": "OpenCode plugin that connects Beads task graphs to agent sessions, tools, and workflow context.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/joshuadavidthomas/opencode-beads",
+      "canonicalUrl": "https://github.com/joshuadavidthomas/opencode-beads",
+      "canonicalization": null,
+      "category": "Planning / OpenCode integration",
+      "agents": [
+        "OpenCode"
+      ],
+      "integrationMode": "opencode-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 21,
+      "moduleId": "catalog.021.opencode-goal-plugin",
+      "name": "OpenCode Goal Plugin",
+      "description": "Maintains explicit goals and progress context so OpenCode can keep long-running development work aligned.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/prevalentWare/opencode-goal-plugin",
+      "canonicalUrl": "https://github.com/prevalentWare/opencode-goal-plugin",
+      "canonicalization": null,
+      "category": "Planning / goal tracking",
+      "agents": [
+        "OpenCode"
+      ],
+      "integrationMode": "opencode-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 22,
+      "moduleId": "catalog.022.opencode-openspec-plugin",
+      "name": "OpenCode OpenSpec Plugin",
+      "description": "OpenCode integration for applying OpenSpec proposal, planning, implementation, and archival workflows.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/Octane0411/opencode-plugin-openspec",
+      "canonicalUrl": "https://github.com/Octane0411/opencode-plugin-openspec",
+      "canonicalization": null,
+      "category": "Planning / specification integration",
+      "agents": [
+        "OpenCode"
+      ],
+      "integrationMode": "opencode-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 23,
+      "moduleId": "catalog.023.opencode-scheduler",
+      "name": "OpenCode Scheduler",
+      "description": "Schedules or triggers OpenCode work automatically, enabling recurring and unattended development workflows.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/different-ai/opencode-scheduler",
+      "canonicalUrl": "https://github.com/different-ai/opencode-scheduler",
+      "canonicalization": null,
+      "category": "Planning / automation",
+      "agents": [
+        "OpenCode"
+      ],
+      "integrationMode": "opencode-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 24,
+      "moduleId": "catalog.024.adev-org-adev-cli",
+      "name": "@adev-org/adev-cli",
+      "description": "Agentic-development framework covering discovery, specification, planning, TDD implementation, validation, governance, and recovery.",
+      "sourceType": "npm package",
+      "originalUrl": "https://www.npmjs.com/package/@adev-org/adev-cli",
+      "canonicalUrl": "https://www.npmjs.com/package/@adev-org/adev-cli",
+      "canonicalization": null,
+      "category": "Planning / lifecycle framework",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Cursor",
+        "Copilot"
+      ],
+      "integrationMode": "reuse-installer-and-normalize",
+      "intendedRole": "catalog-only",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 25,
+      "moduleId": "catalog.025.codex-plugin-for-claude-code",
+      "name": "Codex Plugin for Claude Code",
+      "description": "Official plugin that delegates reviews or background work from Claude Code to Codex and manages transfers, status, results, and cancellation.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/openai/codex-plugin-cc",
+      "canonicalUrl": "https://github.com/openai/codex-plugin-cc",
+      "canonicalization": null,
+      "category": "Delegation / cross-agent",
+      "agents": [
+        "Claude Code",
+        "Codex"
+      ],
+      "integrationMode": "reuse-plugin",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 26,
+      "moduleId": "catalog.026.ruflo",
+      "name": "Ruflo",
+      "description": "Large orchestration framework for swarms, specialist agents, memory, routing, and coordinated software-development pipelines.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/ruvnet/ruflo",
+      "canonicalUrl": "https://github.com/ruvnet/ruflo",
+      "canonicalization": null,
+      "category": "Delegation / swarm orchestration",
+      "agents": [
+        "Claude Code",
+        "Other coding agents"
+      ],
+      "integrationMode": "wrap-runtime",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 27,
+      "moduleId": "catalog.027.oh-my-opencode",
+      "name": "Oh My OpenCode",
+      "description": "Batteries-included OpenCode setup with specialized agents, commands, routing, workflow automation, and sensible defaults.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/opensoft/oh-my-opencode",
+      "canonicalUrl": "https://github.com/opensoft/oh-my-opencode",
+      "canonicalization": null,
+      "category": "Delegation / OpenCode workflow",
+      "agents": [
+        "OpenCode"
+      ],
+      "integrationMode": "opencode-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 28,
+      "moduleId": "catalog.028.opencode-swarm",
+      "name": "OpenCode Swarm",
+      "description": "Coordinates multiple OpenCode agents as a task-oriented swarm for parallel analysis and implementation.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/ZaxbyHub/opencode-swarm",
+      "canonicalUrl": "https://github.com/ZaxbyHub/opencode-swarm",
+      "canonicalization": null,
+      "category": "Delegation / swarm orchestration",
+      "agents": [
+        "OpenCode"
+      ],
+      "integrationMode": "opencode-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 29,
+      "moduleId": "catalog.029.opencode-orchestrator",
+      "name": "OpenCode Orchestrator",
+      "description": "Orchestration layer for delegating development tasks to specialized OpenCode agents and collecting their outputs.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/agnusdei1207/opencode-orchestrator",
+      "canonicalUrl": "https://github.com/agnusdei1207/opencode-orchestrator",
+      "canonicalization": null,
+      "category": "Delegation / orchestration",
+      "agents": [
+        "OpenCode"
+      ],
+      "integrationMode": "opencode-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 30,
+      "moduleId": "catalog.030.agentsys",
+      "name": "AgentSys",
+      "description": "Reusable agent-system configuration for specialist roles, delegation rules, and coordinated coding workflows.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/agent-sh/agentsys",
+      "canonicalUrl": "https://github.com/agent-sh/agentsys",
+      "canonicalization": null,
+      "category": "Delegation / agent system",
+      "agents": [
+        "OpenCode",
+        "Other coding agents"
+      ],
+      "integrationMode": "normalize-agents-and-workflows",
+      "intendedRole": "instruction-module",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 31,
+      "moduleId": "catalog.031.micode",
+      "name": "Micode",
+      "description": "OpenCode-centered multi-agent development workflow for splitting, running, and supervising coding tasks.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/vtemian/micode",
+      "canonicalUrl": "https://github.com/vtemian/micode",
+      "canonicalization": null,
+      "category": "Delegation / multi-agent coding",
+      "agents": [
+        "OpenCode"
+      ],
+      "integrationMode": "wrap-runtime",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 32,
+      "moduleId": "catalog.032.massgen",
+      "name": "MassGen",
+      "description": "Runs multiple agents in parallel, shares intermediate work, and aggregates or selects stronger final outputs.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/massgen/MassGen",
+      "canonicalUrl": "https://github.com/massgen/MassGen",
+      "canonicalization": null,
+      "category": "Delegation / multi-agent aggregation",
+      "agents": [
+        "General agent runtimes",
+        "Coding-agent integrations"
+      ],
+      "integrationMode": "wrap-runtime",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 33,
+      "moduleId": "catalog.033.humanlayer",
+      "name": "HumanLayer",
+      "description": "Context-engineering and human-approval tooling for supervising long-running coding agents and risky actions.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/humanlayer/humanlayer",
+      "canonicalUrl": "https://github.com/humanlayer/humanlayer",
+      "canonicalization": null,
+      "category": "Delegation / human-in-the-loop",
+      "agents": [
+        "Claude Code",
+        "Other coding agents"
+      ],
+      "integrationMode": "wrap-runtime-and-hooks",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 34,
+      "moduleId": "catalog.034.claude-squad",
+      "name": "Claude Squad",
+      "description": "Terminal UI for running multiple coding-agent sessions in isolated worktrees and reviewing their changes.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/smtg-ai/claude-squad",
+      "canonicalUrl": "https://github.com/smtg-ai/claude-squad",
+      "canonicalization": null,
+      "category": "Delegation / parallel sessions",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other terminal agents"
+      ],
+      "integrationMode": "external-runtime",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 35,
+      "moduleId": "catalog.035.vibe-kanban",
+      "name": "Vibe Kanban",
+      "description": "Visual Kanban control plane for creating, assigning, monitoring, and reviewing work performed by coding agents.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/BloopAI/vibe-kanban",
+      "canonicalUrl": "https://github.com/BloopAI/vibe-kanban",
+      "canonicalization": null,
+      "category": "Delegation / visual control plane",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other coding agents"
+      ],
+      "integrationMode": "external-runtime",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 36,
+      "moduleId": "catalog.036.superclaude-framework",
+      "name": "SuperClaude Framework",
+      "description": "Framework of commands, roles, modes, and development workflows that expands Claude Code into a coordinated engineering system.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
+      "canonicalUrl": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
+      "canonicalization": null,
+      "category": "Delegation / Claude workflow",
+      "agents": [
+        "Claude Code"
+      ],
+      "integrationMode": "normalize-agents-and-commands",
+      "intendedRole": "instruction-module",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 37,
+      "moduleId": "catalog.037.agentbox-sdk",
+      "name": "agentbox-sdk",
+      "description": "Unified API for running coding agents interactively inside local or cloud sandboxes while preserving approvals, streaming, and tools.",
+      "sourceType": "npm package",
+      "originalUrl": "https://www.npmjs.com/package/agentbox-sdk",
+      "canonicalUrl": "https://www.npmjs.com/package/agentbox-sdk",
+      "canonicalization": null,
+      "category": "Delegation / sandbox runtime",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode"
+      ],
+      "integrationMode": "runtime-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 38,
+      "moduleId": "catalog.038.codagent-ai-agent-plugin",
+      "name": "@codagent-ai/agent-plugin",
+      "description": "Installs or updates agent plugins through native CLIs when available and falls back to portable skill installation.",
+      "sourceType": "npm package",
+      "originalUrl": "https://www.npmjs.com/package/@codagent-ai/agent-plugin",
+      "canonicalUrl": "https://www.npmjs.com/package/@codagent-ai/agent-plugin",
+      "canonicalization": null,
+      "category": "Delegation / plugin installer",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "Copilot",
+        "Other skill hosts"
+      ],
+      "integrationMode": "reuse-installer",
+      "intendedRole": "catalog-only",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 39,
+      "moduleId": "catalog.039.serena",
+      "name": "Serena",
+      "description": "Language-server-backed semantic code retrieval and editing tools exposed to coding agents through MCP.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/oraios/serena",
+      "canonicalUrl": "https://github.com/oraios/serena",
+      "canonicalization": null,
+      "category": "Context / semantic code intelligence",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 40,
+      "moduleId": "catalog.040.context7",
+      "name": "Context7",
+      "description": "Retrieves current, version-aware library documentation and examples so agents avoid relying on stale API knowledge.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/upstash/context7",
+      "canonicalUrl": "https://github.com/upstash/context7",
+      "canonicalization": null,
+      "category": "Context / documentation retrieval",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 41,
+      "moduleId": "catalog.041.repomix",
+      "name": "Repomix",
+      "description": "Packages a repository into compact, AI-friendly context with filtering, token counts, and optional security checks.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/yamadashy/repomix",
+      "canonicalUrl": "https://github.com/yamadashy/repomix",
+      "canonicalization": null,
+      "category": "Context / repository packaging",
+      "agents": [
+        "All coding agents"
+      ],
+      "integrationMode": "wrap-cli",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 42,
+      "moduleId": "catalog.042.gitingest",
+      "name": "Gitingest",
+      "description": "Turns Git repositories into prompt-ready summaries and text representations for rapid codebase ingestion.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/cyclotruc/gitingest",
+      "canonicalUrl": "https://github.com/coderamp-labs/gitingest",
+      "canonicalization": {
+        "catalogId": 42,
+        "canonicalUrl": "https://github.com/coderamp-labs/gitingest",
+        "reason": "Repository redirect resolved on 2026-08-13."
+      },
+      "category": "Context / repository ingestion",
+      "agents": [
+        "All coding agents"
+      ],
+      "integrationMode": "wrap-cli-or-service",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 43,
+      "moduleId": "catalog.043.codegraphcontext",
+      "name": "CodeGraphContext",
+      "description": "Builds structural code graphs and exposes dependency-aware context for navigation, impact analysis, and planning.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/CodeGraphContext/CodeGraphContext",
+      "canonicalUrl": "https://github.com/CodeGraphContext/CodeGraphContext",
+      "canonicalization": null,
+      "category": "Context / code graph",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 44,
+      "moduleId": "catalog.044.claude-context",
+      "name": "Claude Context",
+      "description": "Indexes code and provides semantic search so agents retrieve relevant snippets instead of loading entire repositories.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/zilliztech/claude-context",
+      "canonicalUrl": "https://github.com/zilliztech/claude-context",
+      "canonicalization": null,
+      "category": "Context / semantic search",
+      "agents": [
+        "Claude Code",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 45,
+      "moduleId": "catalog.045.basic-memory",
+      "name": "Basic Memory",
+      "description": "Local-first Markdown knowledge and relationship store that gives agents durable, inspectable memory through MCP.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/basicmachines-co/basic-memory",
+      "canonicalUrl": "https://github.com/basicmachines-co/basic-memory",
+      "canonicalization": null,
+      "category": "Memory / local knowledge",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 46,
+      "moduleId": "catalog.046.mem0",
+      "name": "Mem0",
+      "description": "Persistent memory layer for extracting, updating, retrieving, and scoping facts across agent sessions.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/mem0ai/mem0",
+      "canonicalUrl": "https://github.com/mem0ai/mem0",
+      "canonicalization": null,
+      "category": "Memory / persistent personalization",
+      "agents": [
+        "Agent runtimes",
+        "Coding-agent integrations"
+      ],
+      "integrationMode": "wrap-library-or-service",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 47,
+      "moduleId": "catalog.047.graphiti",
+      "name": "Graphiti",
+      "description": "Temporal knowledge-graph memory for retaining evolving entities, relationships, events, and project decisions.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/getzep/graphiti",
+      "canonicalUrl": "https://github.com/getzep/graphiti",
+      "canonicalization": null,
+      "category": "Memory / temporal knowledge graph",
+      "agents": [
+        "Agent runtimes",
+        "Coding-agent integrations"
+      ],
+      "integrationMode": "wrap-library-or-service",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 48,
+      "moduleId": "catalog.048.claude-mem",
+      "name": "Claude-Mem",
+      "description": "Captures, compresses, indexes, and restores Claude Code session history to improve continuity across conversations.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/thedotmack/claude-mem",
+      "canonicalUrl": "https://github.com/thedotmack/claude-mem",
+      "canonicalization": null,
+      "category": "Memory / session continuity",
+      "agents": [
+        "Claude Code"
+      ],
+      "integrationMode": "claude-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 49,
+      "moduleId": "catalog.049.opencode-dynamic-context-pruning",
+      "name": "OpenCode Dynamic Context Pruning",
+      "description": "Removes redundant or low-value context from OpenCode sessions to reduce token use and preserve useful working memory.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/Opencode-DCP/opencode-dynamic-context-pruning",
+      "canonicalUrl": "https://github.com/Opencode-DCP/opencode-dynamic-context-pruning",
+      "canonicalization": null,
+      "category": "Performance / context optimization",
+      "agents": [
+        "OpenCode"
+      ],
+      "integrationMode": "opencode-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 50,
+      "moduleId": "catalog.050.opencode-supermemory",
+      "name": "OpenCode Supermemory",
+      "description": "Persistent memory plugin that recalls relevant information automatically during OpenCode sessions.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/supermemoryai/opencode-supermemory",
+      "canonicalUrl": "https://github.com/supermemoryai/opencode-supermemory",
+      "canonicalization": null,
+      "category": "Memory / OpenCode",
+      "agents": [
+        "OpenCode"
+      ],
+      "integrationMode": "opencode-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 51,
+      "moduleId": "catalog.051.opencode-morph-fast-apply",
+      "name": "OpenCode Morph Fast Apply",
+      "description": "Adds high-speed code-application tooling to OpenCode for applying larger edits with fewer tokens and retries.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/JRedeker/opencode-morph-fast-apply",
+      "canonicalUrl": "https://github.com/JRedeker/opencode-morph-fast-apply",
+      "canonicalization": null,
+      "category": "Performance / code editing",
+      "agents": [
+        "OpenCode"
+      ],
+      "integrationMode": "opencode-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 52,
+      "moduleId": "catalog.052.claude-code-router",
+      "name": "Claude Code Router",
+      "description": "Routes Claude Code requests through alternative model providers, transformers, and task-specific routing rules.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/musistudio/claude-code-router",
+      "canonicalUrl": "https://github.com/musistudio/claude-code-router",
+      "canonicalization": null,
+      "category": "Performance / model routing",
+      "agents": [
+        "Claude Code"
+      ],
+      "integrationMode": "proxy-runtime",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 53,
+      "moduleId": "catalog.053.socraticode",
+      "name": "SocratiCode",
+      "description": "Private codebase indexer providing hybrid search, dependency graphs, impact analysis, context artifacts, and agent plugins.",
+      "sourceType": "npm package",
+      "originalUrl": "https://www.npmjs.com/package/socraticode",
+      "canonicalUrl": "https://www.npmjs.com/package/socraticode",
+      "canonicalization": null,
+      "category": "Context / private code intelligence",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp-and-skills",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 54,
+      "moduleId": "catalog.054.aicontextlab-cli-opencontext",
+      "name": "@aicontextlab/cli (OpenContext)",
+      "description": "Persistent context library with CLI, GUI, MCP tools, and generated skills for carrying knowledge across sessions and repositories.",
+      "sourceType": "npm package",
+      "originalUrl": "https://www.npmjs.com/package/@aicontextlab/cli",
+      "canonicalUrl": "https://www.npmjs.com/package/@aicontextlab/cli",
+      "canonicalization": null,
+      "category": "Memory / context workspace",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Cursor"
+      ],
+      "integrationMode": "federate-mcp-and-skills",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 55,
+      "moduleId": "catalog.055.openai-build-web-apps-plugin",
+      "name": "OpenAI Build Web Apps Plugin",
+      "description": "Skills for frontend design, browser testing, UI components, payments, databases, deployment, and full-stack web application delivery.",
+      "sourceType": "GitHub plugin directory",
+      "originalUrl": "https://github.com/openai/plugins/tree/main/plugins/build-web-apps",
+      "canonicalUrl": "https://github.com/openai/plugins/tree/main/plugins/build-web-apps",
+      "canonicalization": null,
+      "category": "Frontend / full-stack web",
+      "agents": [
+        "Codex"
+      ],
+      "integrationMode": "codex-adapter-and-normalize-skills",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 56,
+      "moduleId": "catalog.056.openai-figma-plugin",
+      "name": "OpenAI Figma Plugin",
+      "description": "Connects Codex with Figma workflows, Code to Canvas, Code Connect, design-system rules, and design-to-code implementation.",
+      "sourceType": "GitHub plugin directory",
+      "originalUrl": "https://github.com/openai/plugins/tree/main/plugins/figma",
+      "canonicalUrl": "https://github.com/openai/plugins/tree/main/plugins/figma",
+      "canonicalization": null,
+      "category": "Frontend / design-to-code",
+      "agents": [
+        "Codex"
+      ],
+      "integrationMode": "codex-adapter-and-federate-app",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 57,
+      "moduleId": "catalog.057.openai-expo-plugin",
+      "name": "OpenAI Expo Plugin",
+      "description": "Skills for Expo and React Native development, SDK upgrades, EAS builds, debugging, and mobile release workflows.",
+      "sourceType": "GitHub plugin directory",
+      "originalUrl": "https://github.com/openai/plugins/tree/main/plugins/expo",
+      "canonicalUrl": "https://github.com/openai/plugins/tree/main/plugins/expo",
+      "canonicalization": null,
+      "category": "Frontend / mobile",
+      "agents": [
+        "Codex"
+      ],
+      "integrationMode": "codex-adapter-and-normalize-skills",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 58,
+      "moduleId": "catalog.058.openai-remotion-plugin",
+      "name": "OpenAI Remotion Plugin",
+      "description": "Provides skills and tooling for building, previewing, and rendering programmatic video projects with Remotion.",
+      "sourceType": "GitHub plugin directory",
+      "originalUrl": "https://github.com/openai/plugins/tree/main/plugins/remotion",
+      "canonicalUrl": "https://github.com/openai/plugins/tree/main/plugins/remotion",
+      "canonicalization": null,
+      "category": "Frontend / programmatic media",
+      "agents": [
+        "Codex"
+      ],
+      "integrationMode": "codex-adapter-and-normalize-skills",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 59,
+      "moduleId": "catalog.059.openai-build-ios-apps-plugin",
+      "name": "OpenAI Build iOS Apps Plugin",
+      "description": "Guides SwiftUI implementation, refactoring, build/run/debug loops, performance work, and iOS app delivery.",
+      "sourceType": "GitHub plugin directory",
+      "originalUrl": "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps",
+      "canonicalUrl": "https://github.com/openai/plugins/tree/main/plugins/build-ios-apps",
+      "canonicalization": null,
+      "category": "Frontend / iOS",
+      "agents": [
+        "Codex"
+      ],
+      "integrationMode": "codex-adapter-and-normalize-skills",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 60,
+      "moduleId": "catalog.060.openai-test-android-apps-plugin",
+      "name": "OpenAI Test Android Apps Plugin",
+      "description": "Automates emulator reproduction, screenshots, UI inspection, log capture, memory checks, and performance profiling for Android apps.",
+      "sourceType": "GitHub plugin directory",
+      "originalUrl": "https://github.com/openai/plugins/tree/main/plugins/test-android-apps",
+      "canonicalUrl": "https://github.com/openai/plugins/tree/main/plugins/test-android-apps",
+      "canonicalization": null,
+      "category": "Frontend / Android testing",
+      "agents": [
+        "Codex"
+      ],
+      "integrationMode": "codex-adapter-and-normalize-skills",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 61,
+      "moduleId": "catalog.061.playwright-mcp",
+      "name": "Playwright MCP",
+      "description": "Microsoft’s MCP server for reliable browser navigation, interaction, inspection, screenshots, and end-to-end testing.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/microsoft/playwright-mcp",
+      "canonicalUrl": "https://github.com/microsoft/playwright-mcp",
+      "canonicalization": null,
+      "category": "UI / browser automation",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 62,
+      "moduleId": "catalog.062.chrome-devtools-mcp",
+      "name": "Chrome DevTools MCP",
+      "description": "Exposes Chrome DevTools capabilities for DOM inspection, console/network debugging, screenshots, and performance analysis.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "canonicalUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "canonicalization": null,
+      "category": "UI / browser debugging",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 63,
+      "moduleId": "catalog.063.browser-mcp",
+      "name": "Browser MCP",
+      "description": "Browser-extension-backed MCP server that lets agents navigate pages, click, type, extract content, and automate web workflows.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/BrowserMCP/mcp",
+      "canonicalUrl": "https://github.com/BrowserMCP/mcp",
+      "canonicalization": null,
+      "category": "UI / browser automation",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 64,
+      "moduleId": "catalog.064.opencode-browser-mcp-plugin",
+      "name": "OpenCode Browser MCP Plugin",
+      "description": "OpenCode integration for Browser MCP with automatic task detection, performance hints, retry behavior, and context preservation.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/michaljach/opencode-browser",
+      "canonicalUrl": "https://github.com/michaljach/opencode-browser",
+      "canonicalization": null,
+      "category": "UI / OpenCode browser automation",
+      "agents": [
+        "OpenCode"
+      ],
+      "integrationMode": "opencode-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 65,
+      "moduleId": "catalog.065.opencode-chrome-devtools",
+      "name": "OpenCode Chrome DevTools",
+      "description": "Lightweight direct-CDP OpenCode plugin for page listing, navigation, accessibility snapshots, interaction, evaluation, and screenshots.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/different-ai/opencode-browser",
+      "canonicalUrl": "https://github.com/different-ai/opencode-browser",
+      "canonicalization": null,
+      "category": "UI / OpenCode browser automation",
+      "agents": [
+        "OpenCode"
+      ],
+      "integrationMode": "opencode-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 66,
+      "moduleId": "catalog.066.magic-mcp",
+      "name": "Magic MCP",
+      "description": "Connects agents to 21st.dev’s UI component ecosystem for discovering and generating polished frontend components.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/21st-dev/magic-mcp",
+      "canonicalUrl": "https://github.com/21st-dev/magic-mcp",
+      "canonicalization": null,
+      "category": "Frontend / component generation",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 67,
+      "moduleId": "catalog.067.figma-context-mcp",
+      "name": "Figma Context MCP",
+      "description": "Supplies structured Figma design context to coding agents so they can implement layouts and components more accurately.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/GLips/Figma-Context-MCP",
+      "canonicalUrl": "https://github.com/GLips/Figma-Context-MCP",
+      "canonicalization": null,
+      "category": "Frontend / design context",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 68,
+      "moduleId": "catalog.068.storybook-mcp",
+      "name": "Storybook MCP",
+      "description": "Exposes Storybook components, stories, metadata, and testing context for agent-driven UI development and verification.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/storybookjs/mcp",
+      "canonicalUrl": "https://github.com/storybookjs/mcp",
+      "canonicalization": null,
+      "category": "Frontend / component systems",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 69,
+      "moduleId": "catalog.069.mobile-mcp",
+      "name": "Mobile MCP",
+      "description": "Controls Android and iOS devices or emulators for taps, text entry, screenshots, app inspection, and mobile testing.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/mobile-next/mobile-mcp",
+      "canonicalUrl": "https://github.com/mobile-next/mobile-mcp",
+      "canonicalization": null,
+      "category": "UI / mobile automation",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 70,
+      "moduleId": "catalog.070.github-mcp-server",
+      "name": "GitHub MCP Server",
+      "description": "Official GitHub MCP server for repositories, files, commits, branches, issues, pull requests, reviews, and automation.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/github/github-mcp-server",
+      "canonicalUrl": "https://github.com/github/github-mcp-server",
+      "canonicalization": null,
+      "category": "Backend / source control",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 71,
+      "moduleId": "catalog.071.model-context-protocol-servers",
+      "name": "Model Context Protocol Servers",
+      "description": "Reference and example MCP servers covering common local resources and integration patterns.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/modelcontextprotocol/servers",
+      "canonicalUrl": "https://github.com/modelcontextprotocol/servers",
+      "canonicalization": null,
+      "category": "Backend / reference integrations",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "select-and-federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 72,
+      "moduleId": "catalog.072.supabase-mcp",
+      "name": "Supabase MCP",
+      "description": "Connects agents to Supabase projects for database work, migrations, configuration, logs, functions, and platform operations.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/supabase-community/supabase-mcp",
+      "canonicalUrl": "https://github.com/supabase/mcp",
+      "canonicalization": {
+        "catalogId": 72,
+        "canonicalUrl": "https://github.com/supabase/mcp",
+        "reason": "Repository redirect resolved on 2026-08-13."
+      },
+      "category": "Backend / database and platform",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 73,
+      "moduleId": "catalog.073.neon-mcp-server",
+      "name": "Neon MCP Server",
+      "description": "Lets agents create, inspect, branch, query, and manage Neon Postgres databases and projects.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/neondatabase/mcp-server-neon",
+      "canonicalUrl": "https://github.com/neondatabase/mcp-server-neon",
+      "canonicalization": null,
+      "category": "Backend / PostgreSQL",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 74,
+      "moduleId": "catalog.074.prisma-mcp",
+      "name": "Prisma MCP",
+      "description": "Provides Prisma-aware database and development workflows to agents through MCP-compatible tooling.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/prisma/mcp",
+      "canonicalUrl": "https://github.com/prisma/mcp",
+      "canonicalization": null,
+      "category": "Backend / ORM and database",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 75,
+      "moduleId": "catalog.075.dbt-mcp",
+      "name": "dbt MCP",
+      "description": "Exposes dbt project metadata, semantic-layer context, models, lineage, commands, and analytics-engineering workflows.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/dbt-labs/dbt-mcp",
+      "canonicalUrl": "https://github.com/dbt-labs/dbt-mcp",
+      "canonicalization": null,
+      "category": "Backend / analytics engineering",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 76,
+      "moduleId": "catalog.076.mongodb-mcp-server",
+      "name": "MongoDB MCP Server",
+      "description": "Official MongoDB integration for inspecting schemas, querying data, and managing development database workflows.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/mongodb-js/mongodb-mcp-server",
+      "canonicalUrl": "https://github.com/mongodb-js/mongodb-mcp-server",
+      "canonicalization": null,
+      "category": "Backend / database",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 77,
+      "moduleId": "catalog.077.redis-mcp",
+      "name": "Redis MCP",
+      "description": "Provides MCP tools for Redis data structures, search, JSON, vector use cases, and operational inspection.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/redis/mcp-redis",
+      "canonicalUrl": "https://github.com/redis/mcp-redis",
+      "canonicalization": null,
+      "category": "Backend / data platform",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 78,
+      "moduleId": "catalog.078.terraform-mcp-server",
+      "name": "Terraform MCP Server",
+      "description": "HashiCorp MCP integration for Terraform Registry discovery, module/provider guidance, and infrastructure workflows.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/hashicorp/terraform-mcp-server",
+      "canonicalUrl": "https://github.com/hashicorp/terraform-mcp-server",
+      "canonicalization": null,
+      "category": "DevOps / infrastructure as code",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 79,
+      "moduleId": "catalog.079.pulumi-mcp-server",
+      "name": "Pulumi MCP Server",
+      "description": "Official Pulumi MCP server package for Registry discovery, previews and deployments, stack outputs, resource search, and delegation of infrastructure work to Pulumi Neo.",
+      "sourceType": "npm package",
+      "originalUrl": "https://www.npmjs.com/package/@pulumi/mcp-server",
+      "canonicalUrl": "https://www.npmjs.com/package/@pulumi/mcp-server",
+      "canonicalization": null,
+      "category": "DevOps / infrastructure as code",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 80,
+      "moduleId": "catalog.080.aws-mcp-servers",
+      "name": "AWS MCP Servers",
+      "description": "AWS Labs collection of MCP servers for cloud architecture, documentation, infrastructure, operations, and service-specific tasks.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/awslabs/mcp",
+      "canonicalUrl": "https://github.com/awslabs/mcp",
+      "canonicalization": null,
+      "category": "Cloud / AWS",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "select-and-federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 81,
+      "moduleId": "catalog.081.azure-mcp-server",
+      "name": "Azure MCP Server",
+      "description": "Microsoft’s MCP server for querying and managing Azure resources, services, diagnostics, and development workflows.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/Azure/azure-mcp",
+      "canonicalUrl": "https://github.com/Azure/azure-mcp",
+      "canonicalization": null,
+      "category": "Cloud / Azure",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 82,
+      "moduleId": "catalog.082.genai-toolbox-for-databases",
+      "name": "GenAI Toolbox for Databases",
+      "description": "Google’s toolbox for exposing governed, reusable database tools to AI agents across multiple database engines.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/GoogleCloudPlatform/genai-toolbox",
+      "canonicalUrl": "https://github.com/googleapis/mcp-toolbox",
+      "canonicalization": {
+        "catalogId": 82,
+        "canonicalUrl": "https://github.com/googleapis/mcp-toolbox",
+        "reason": "Project was renamed from Gen AI Toolbox for Databases to MCP Toolbox for Databases."
+      },
+      "category": "Backend / database tools",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 83,
+      "moduleId": "catalog.083.cloudflare-mcp-server",
+      "name": "Cloudflare MCP Server",
+      "description": "Enables agent access to Cloudflare development and operational capabilities across Workers and related services.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/cloudflare/mcp-server-cloudflare",
+      "canonicalUrl": "https://github.com/cloudflare/mcp-server-cloudflare",
+      "canonicalization": null,
+      "category": "Cloud / edge platform",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 84,
+      "moduleId": "catalog.084.postman-mcp-server",
+      "name": "Postman MCP Server",
+      "description": "Connects agents to Postman collections, APIs, workspaces, tests, documentation, and API-development workflows.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/postmanlabs/postman-mcp-server",
+      "canonicalUrl": "https://github.com/postmanlabs/postman-mcp-server",
+      "canonicalization": null,
+      "category": "Backend / API development",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 85,
+      "moduleId": "catalog.085.docker-mcp-gateway",
+      "name": "Docker MCP Gateway",
+      "description": "Runs and brokers MCP servers through Docker with isolation, centralized configuration, discovery, and lifecycle management.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/docker/mcp-gateway",
+      "canonicalUrl": "https://github.com/docker/mcp-gateway",
+      "canonicalization": null,
+      "category": "DevOps / MCP runtime",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "reuse-gateway",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 86,
+      "moduleId": "catalog.086.pr-agent",
+      "name": "PR-Agent",
+      "description": "Automates pull-request description, review, improvement suggestions, test generation, and repository quality checks.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/qodo-ai/pr-agent",
+      "canonicalUrl": "https://github.com/The-PR-Agent/pr-agent",
+      "canonicalization": {
+        "catalogId": 86,
+        "canonicalUrl": "https://github.com/The-PR-Agent/pr-agent",
+        "reason": "Repository redirect resolved on 2026-08-13."
+      },
+      "category": "Quality / code review",
+      "agents": [
+        "GitHub workflows",
+        "Coding-agent integrations"
+      ],
+      "integrationMode": "wrap-service-or-cli",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 87,
+      "moduleId": "catalog.087.endor-labs-ai-plugins",
+      "name": "Endor Labs AI Plugins",
+      "description": "Agent plugins for scanning, prioritizing, and remediating dependency, package, and software-supply-chain risk.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/endorlabs/ai-plugins",
+      "canonicalUrl": "https://github.com/endorlabs/ai-plugins",
+      "canonicalization": null,
+      "category": "Security / software supply chain",
+      "agents": [
+        "Claude Code",
+        "Plugin-compatible agents"
+      ],
+      "integrationMode": "normalize-plugin-and-wrap-cli",
+      "intendedRole": "instruction-module",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 88,
+      "moduleId": "catalog.088.sonarqube-mcp-server",
+      "name": "SonarQube MCP Server",
+      "description": "Exposes SonarQube and SonarCloud findings, quality gates, issue details, and remediation context to coding agents.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/SonarSource/sonarqube-mcp-server",
+      "canonicalUrl": "https://github.com/SonarSource/sonarqube-mcp-server",
+      "canonicalization": null,
+      "category": "Quality / static analysis",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 89,
+      "moduleId": "catalog.089.snyk-agent-scan",
+      "name": "Snyk Agent Scan",
+      "description": "Discovers and scans installed agents, MCP servers, and skills for prompt injection, sensitive-data, malware, and vulnerability risks.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/snyk/agent-scan",
+      "canonicalUrl": "https://github.com/snyk/agent-scan",
+      "canonicalization": null,
+      "category": "Security / agent component scanning",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other agent hosts"
+      ],
+      "integrationMode": "security-gate",
+      "intendedRole": "build-gate",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 90,
+      "moduleId": "catalog.090.aikido-claude-plugin",
+      "name": "Aikido Claude Plugin",
+      "description": "Adds Aikido security scanning for SAST, secrets, dependencies, and infrastructure-as-code issues to Claude Code.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/AikidoSec/aikido-claude-plugin",
+      "canonicalUrl": "https://github.com/AikidoSec/aikido-claude-plugin",
+      "canonicalization": null,
+      "category": "Security / application scanning",
+      "agents": [
+        "Claude Code"
+      ],
+      "integrationMode": "claude-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 91,
+      "moduleId": "catalog.091.42crunch-claude-plugins",
+      "name": "42Crunch Claude Plugins",
+      "description": "Audits OpenAPI definitions, scans APIs, identifies OWASP API risks, suggests fixes, and validates remediation.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/42Crunch-AI/claude-plugins",
+      "canonicalUrl": "https://github.com/42Crunch-AI/claude-plugins",
+      "canonicalization": null,
+      "category": "Security / API security",
+      "agents": [
+        "Claude Code"
+      ],
+      "integrationMode": "claude-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 92,
+      "moduleId": "catalog.092.cisco-ai-defense-skill-scanner",
+      "name": "Cisco AI Defense Skill Scanner",
+      "description": "Scans Agent Skills for malicious instructions, risky behavior, prompt injection, and unsafe packaged content.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/cisco-ai-defense/skill-scanner",
+      "canonicalUrl": "https://github.com/cisco-ai-defense/skill-scanner",
+      "canonicalization": null,
+      "category": "Security / skill scanning",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other skill hosts"
+      ],
+      "integrationMode": "security-gate",
+      "intendedRole": "build-gate",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 93,
+      "moduleId": "catalog.093.mcp-inspector",
+      "name": "MCP Inspector",
+      "description": "Interactive developer tool for inspecting, invoking, debugging, and validating MCP servers, tools, resources, and prompts.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/modelcontextprotocol/inspector",
+      "canonicalUrl": "https://github.com/modelcontextprotocol/inspector",
+      "canonicalization": null,
+      "category": "Testing / MCP",
+      "agents": [
+        "MCP servers and clients"
+      ],
+      "integrationMode": "test-harness",
+      "intendedRole": "build-gate",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 94,
+      "moduleId": "catalog.094.toolhive",
+      "name": "ToolHive",
+      "description": "Secure runtime and manager for discovering, running, isolating, and governing MCP servers.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/stacklok/toolhive",
+      "canonicalUrl": "https://github.com/stacklok/toolhive",
+      "canonicalization": null,
+      "category": "Security / MCP isolation",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "reuse-gateway",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 95,
+      "moduleId": "catalog.095.skillspector",
+      "name": "SkillSpector",
+      "description": "NVIDIA tool for inspecting and evaluating Agent Skills for security, policy, and quality risks.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/NVIDIA/SkillSpector",
+      "canonicalUrl": "https://github.com/NVIDIA/SkillSpector",
+      "canonicalization": null,
+      "category": "Security / skill analysis",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other skill hosts"
+      ],
+      "integrationMode": "security-gate",
+      "intendedRole": "build-gate",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 96,
+      "moduleId": "catalog.096.skil-lock",
+      "name": "Skil Lock",
+      "description": "Locks skill dependencies and content identities to reduce unreviewed drift and supply-chain tampering.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/skills-lock/skil-lock",
+      "canonicalUrl": "https://github.com/skills-lock/skil-lock",
+      "canonicalization": null,
+      "category": "Security / skill integrity",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "Other skill hosts"
+      ],
+      "integrationMode": "lockfile-and-integrity-gate",
+      "intendedRole": "build-gate",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 97,
+      "moduleId": "catalog.097.cc-safety-net",
+      "name": "CC Safety Net",
+      "description": "Claude Code safety hooks that intercept destructive or high-risk commands and enforce configurable safeguards.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/kenryu42/cc-safety-net",
+      "canonicalUrl": "https://github.com/kenryu42/cc-safety-net",
+      "canonicalization": null,
+      "category": "Safety / command guardrails",
+      "agents": [
+        "Claude Code"
+      ],
+      "integrationMode": "claude-hooks-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 98,
+      "moduleId": "catalog.098.ccusage",
+      "name": "ccusage",
+      "description": "Analyzes local coding-agent usage logs to report token consumption, costs, sessions, trends, and budgets.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/ryoppippi/ccusage",
+      "canonicalUrl": "https://github.com/ccusage/ccusage",
+      "canonicalization": {
+        "catalogId": 98,
+        "canonicalUrl": "https://github.com/ccusage/ccusage",
+        "reason": "Repository redirect resolved on 2026-08-13."
+      },
+      "category": "Observability / cost and usage",
+      "agents": [
+        "Claude Code",
+        "Codex"
+      ],
+      "integrationMode": "wrap-cli-and-monitor",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 99,
+      "moduleId": "catalog.099.claude-code-multi-agent-observability",
+      "name": "Claude Code Multi-Agent Observability",
+      "description": "Hook-based observability stack for visualizing Claude Code and subagent lifecycle events, tools, prompts, and execution traces.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/disler/claude-code-hooks-multi-agent-observability",
+      "canonicalUrl": "https://github.com/disler/claude-code-hooks-multi-agent-observability",
+      "canonicalization": null,
+      "category": "Observability / agent events",
+      "agents": [
+        "Claude Code"
+      ],
+      "integrationMode": "claude-hooks-adapter",
+      "intendedRole": "agent-adapter",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    },
+    {
+      "catalogId": 100,
+      "moduleId": "catalog.100.sentry-mcp",
+      "name": "Sentry MCP",
+      "description": "Lets coding agents investigate Sentry issues, stack traces, events, releases, and production-error context.",
+      "sourceType": "GitHub repository",
+      "originalUrl": "https://github.com/getsentry/sentry-mcp",
+      "canonicalUrl": "https://github.com/getsentry/sentry-mcp",
+      "canonicalization": null,
+      "category": "Observability / debugging",
+      "agents": [
+        "Claude Code",
+        "Codex",
+        "OpenCode",
+        "MCP hosts"
+      ],
+      "integrationMode": "federate-mcp",
+      "intendedRole": "local-provider",
+      "releaseState": "catalog-only",
+      "acceptance": {
+        "releaseState": "catalog-only",
+        "reason": "Source, license, security, and compatibility have not passed the public release gates."
+      }
+    }
+  ]
+}

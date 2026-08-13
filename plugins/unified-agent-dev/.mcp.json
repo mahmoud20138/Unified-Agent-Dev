@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "unified-agent-dev": {
+      "title": "Unified Agent Dev",
+      "description": "Read-only catalogue and accepted-provider resolver.",
+      "cwd": ".",
+      "command": "node",
+      "args": [
+        "./runtime/server.mjs",
+        "--host",
+        "codex"
+      ]
+    }
+  }
+}
