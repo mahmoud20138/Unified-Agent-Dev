@@ -2,7 +2,7 @@
   "name": "@unified-agent-dev/cli",
   "version": "0.1.0",
   "description": "One-install federated capability registry for Claude Code, Codex, and OpenCode.",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mahmoud20138/Unified-Agent-Dev.git"

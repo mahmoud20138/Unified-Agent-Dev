@@ -171,6 +171,6 @@ See [SECURITY.md](SECURITY.md) for vulnerability reporting and [SUPPORT.md](SUPP
 
 ## Release status and license
 
-The source is currently marked `UNLICENSED`; no open-source license or redistribution permission is granted. The unsigned `0.1.0` tarball is for local development validation, not public redistribution.
+Unified Agent Dev is licensed under the [MIT License](LICENSE). Catalogue entries describe independent upstream projects; each upstream project retains its own license and is not redistributed by `0.1.0`.
 
-A supported public release still requires a publisher-owned signing key, finalized legal license, support/privacy/terms identity, signed release assets, and at least one provider with complete acceptance evidence.
+The unsigned `0.1.0` tarball is for local development validation, not a signed public release. A supported public binary release still requires a publisher-owned signing key, support/privacy/terms identity, signed release assets, and at least one provider with complete acceptance evidence.
