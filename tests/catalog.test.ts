@@ -1,4 +1,6 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import { resolve } from "node:path";
 import test from "node:test";
 import { listResources, loadCatalog, resolveCapability, searchResources } from "../src/catalog.js";
 
@@ -25,6 +27,20 @@ test("known redirects are canonicalized without changing the original research U
     assert.equal(entry?.canonicalUrl, url);
     assert.notEqual(entry?.originalUrl, entry?.canonicalUrl);
   }
+});
+
+test("human-readable catalogue documents every entry and the full mix", async () => {
+  const catalog = await loadCatalog();
+  const document = await readFile(resolve(process.cwd(), "docs", "CATALOG.md"), "utf8");
+  const anchors = document.match(/<a id="entry-\d{3}"><\/a>/g) ?? [];
+  assert.equal(anchors.length, 100);
+  for (const resource of catalog.resources) {
+    assert.match(document, new RegExp(`<a id="entry-${String(resource.catalogId).padStart(3, "0")}"></a>`));
+  }
+  assert.match(document, /Unique upstream identities \| 94/);
+  assert.match(document, /Accepted executable providers \| 0/);
+  assert.match(document, /Selection status \| `selected-candidate` \| 100/);
+  assert.match(document, /License status \| `verify-before-bundling` \| 100/);
 });
 
 test("search is deterministic and resolver fails closed for unaccepted matches", async () => {

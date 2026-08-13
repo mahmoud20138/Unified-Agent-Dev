@@ -19,6 +19,7 @@
     "adapters/",
     "catalog/catalog.json",
     "catalog/providers.runtime.json",
+    "docs/",
     "dist/src/",
     "marketplaces/",
     "plugins/",
@@ -35,7 +36,9 @@
   "scripts": {
     "prepack": "npm run test && npm run plugin:validate",
     "catalog:compile": "node ./scripts/compile-catalog.mjs",
-    "build": "npm run catalog:compile && tsc -p tsconfig.json && node ./scripts/build-release.mjs",
+    "catalog:docs": "node ./scripts/build-catalog-doc.mjs",
+    "catalog:docs:check": "node ./scripts/build-catalog-doc.mjs --check",
+    "build": "npm run catalog:compile && npm run catalog:docs:check && tsc -p tsconfig.json && node ./scripts/build-release.mjs",
     "test": "npm run build && node --test \"dist/tests/**/*.test.js\"",
     "check": "npm run test && npm run plugin:validate && npm pack --dry-run --ignore-scripts",
     "plugin:validate": "node ./scripts/validate-plugin.mjs",

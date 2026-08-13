@@ -19,6 +19,7 @@ Unified Agent Dev is a Windows-first catalogue gateway for Codex, Claude Code, a
 | --- | --- |
 | `catalog/catalog.json` | Public normalized projection of all 100 research entries. |
 | `catalog/providers.runtime.json` | Executable-provider projection. It is empty in `0.1.0`. |
+| `docs/CATALOG.md` | Generated human-readable breakdown and complete directory of all 100 entries. |
 | `runtime/server.mjs` | Bundled offline MCP catalogue server generated during the build. |
 | `runtime/cli.mjs` | Self-contained installer, catalogue, doctor, and rollback CLI generated during the build. |
 | `plugins/unified-agent-dev/` | Native Codex plugin descriptor and shared routing skill. |
@@ -39,6 +40,28 @@ The MCP server exposes six read-only tools:
 - `unified_catalog_get`
 - `unified_provider_list`
 - `unified_resolve`
+
+## The 100-entry mix
+
+The catalogue contains 100 distinct research entries/resources, not 100 bundled or executable plugins and not 100 unique repository roots.
+
+| Dimension | Mix |
+| --- | --- |
+| Source format | 86 GitHub repositories, 6 GitHub plugin-directory resources, 8 npm packages |
+| Upstream identities | 94 upstream identities represented by 100 distinct canonical resource URLs |
+| Category families | 14 delegation, 14 planning, 10 backend, 10 foundation, 9 frontend, 8 security, 7 context, 6 memory, 6 UI, 3 cloud, 3 DevOps, 3 observability, 3 performance, 2 quality, 1 safety, 1 testing |
+| Intended roles | 50 local providers, 25 agent adapters, 13 instruction modules, 7 catalogue-only resources, 5 build gates |
+| Major target mentions | 71 Claude Code, 67 OpenCode, 63 Codex, 33 MCP hosts; entries can target several hosts |
+| Explicit core-host combinations | 53 target all three; 15 Claude-only; 14 OpenCode-only; 7 Codex-only; 3 Codex + Claude; 8 name none of the three explicitly |
+| Research review state | 100 selected candidates; 100 licenses marked verify-before-bundling |
+| Current release state | 100 catalogue-only entries, 0 accepted executable providers |
+| Canonical source corrections | 5 repository redirects/renames preserved with original and canonical URLs |
+
+The intended role describes how an entry might be integrated after review. It does **not** grant acceptance. For example, all 50 entries classified as potential `local-provider` modules are still excluded from runtime routing in `0.1.0`.
+
+The OpenAI Plugins repository is represented by seven separate catalogue resources: the repository-level entry plus six specific plugin directories. This is why the invariant is 100 catalogue entries/resources rather than 100 unique repository roots.
+
+See the [complete 100-entry catalogue](docs/CATALOG.md) for every name, description, module ID, category, source type, canonical link, target host, integration plan, intended role, and release state.
 
 ## Requirements
 
